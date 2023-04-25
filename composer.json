@@ -1,4 +1,7 @@
 {
+    "name": "privacyfed/doc_media",
+    "description": "Modulo Media",
+    "license": "MIT",
     "require": {
         "tightenco/jigsaw": "^1.6"
     }
