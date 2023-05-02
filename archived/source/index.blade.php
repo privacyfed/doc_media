@@ -11,6 +11,7 @@
             <p class="text-lg">Give your documentation a boost with Jigsaw. <br class="hidden sm:block">Generate elegant, static docs quickly and easily.</p>
 
             <div class="flex my-10">
+
                 @php($first=$docs->where('id',6)->first())
                 <a href="{{ url($first->getPath()) }}" title="{{ $first->title }} getting started" class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">{{ $first->title }}</a>
 
